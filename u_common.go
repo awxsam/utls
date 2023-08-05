@@ -241,6 +241,7 @@ var (
 	HelloSafari_16_0   = ClientHelloID{helloSafari, false, "16.0", nil, EmptyClientHelloSpecFactory}
 
 	HelloAndroid_11_OkHttp = ClientHelloID{helloAndroid, false, "11", nil, EmptyClientHelloSpecFactory}
+	HelloAndroid_8_OkHttp  = ClientHelloID{helloAndroid, false, "8", nil, EmptyClientHelloSpecFactory}
 
 	HelloEdge_Auto = HelloEdge_85 // HelloEdge_106 seems to be incompatible with this library
 	HelloEdge_85   = ClientHelloID{helloEdge, false, "85", nil, EmptyClientHelloSpecFactory}
