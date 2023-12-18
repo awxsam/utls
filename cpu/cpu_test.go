@@ -10,9 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/bogdanfinn/utls/cpu"
-	"github.com/bogdanfinn/utls/testenv"
-
+	. "github.com/awxsam/utls/cpu"
+	"github.com/awxsam/utls/testenv"
 )
 
 func MustHaveDebugOptionsSupport(t *testing.T) {

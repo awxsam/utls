@@ -10,7 +10,7 @@ import (
 	"regexp"
 	"testing"
 
-	. "github.com/bogdanfinn/utls/cpu"
+	. "github.com/awxsam/utls/cpu"
 )
 
 func getFeatureList() ([]string, error) {
